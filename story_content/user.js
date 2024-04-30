@@ -48,7 +48,7 @@ window.Script1 = function()
   // Function for onload
   var player = GetPlayer();
 player.SetVar("Fname","Passant Mohamed")
-
+window.setUserName.postMessage('Hello from JS');
 }
 
 window.Script2 = function()
@@ -60,10 +60,10 @@ window.Script3 = function()
 {
   // Function for Submit Button
 
-  var player = GetPlayer();
-  var score = player.GetVar(Score);
+  // var player = GetPlayer();
+  // var score = player.GetVar(Score);
   
-console.log(score);
+//console.log(score);
 // setScore.postMessage(Score);
 }
 
