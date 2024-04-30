@@ -50,7 +50,7 @@ window.Script1 = function()
 
  window.setUserName.postMessage('Hello from JS');
 
-player.SetVar("Fname","");
+player.SetVar("Fname","Passant Mohamed");
 }
 
 window.Script2 = function()
@@ -65,7 +65,7 @@ window.Script3 = function()
   // var player = GetPlayer();
   // var score = player.GetVar(Score);
   window.setScore.postMessage(202);
-  window.setScore.postMessage(Score);
+  //window.setScore.postMessage(Score);
 //console.log(score);
 // setScore.postMessage(Score);
 }
