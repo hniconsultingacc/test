@@ -61,8 +61,9 @@ window.Script3 = function()
   // Function for Submit Button
 
   var player = GetPlayer();
-var score = player.GetVar(Score);
-console.log(Score);
+  var score = player.GetVar(Score);
+  
+console.log(score);
 // setScore.postMessage(Score);
 }
 
