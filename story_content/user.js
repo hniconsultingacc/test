@@ -62,7 +62,7 @@ window.Script3 = function()
 
   var player = GetPlayer();
 var score = player.GetVar(Score);
-  
+setScore.postMessage(score);
 }
 
 window.Script4 = function()
