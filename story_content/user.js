@@ -43,16 +43,26 @@ player.SetVar("VariableName",Value)
 
 
 
-window.Script1 = function(data)
-{
-  // Function for onload
-  var player = GetPlayer();
+// window.Script1 = function(data)
+// {
+//   // Function for onload
+//   var player = GetPlayer();
 
-// window.setUserName.postMessage('Hello from JS');
+//   window.setUserName.postMessage('Hello from JS');
 
-player.SetVar("Fname",data);
-}
+// player.SetVar("Fname",data);
+// }
 
+window.Script1 = window.setUserName.postMessage('');
+// function(data)
+// {
+//   // Function for onload
+//   var player = GetPlayer();
+
+//   window.setUserName.postMessage('Hello from JS');
+
+// player.SetVar("Fname",data);
+// }
 window.Script2 = function()
 {
   // Function for Increase Button
