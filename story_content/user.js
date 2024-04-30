@@ -46,6 +46,9 @@ player.SetVar("VariableName",Value)
 window.Script1 = function()
 {
   // Function for onload
+  var player = GetPlayer();
+player.SetVar("Fname","Passant Mohamed")
+
 }
 
 window.Script2 = function()
@@ -57,6 +60,9 @@ window.Script3 = function()
 {
   // Function for Submit Button
 
+  var player = GetPlayer();
+var score = player.GetVar(Score);
+  
 }
 
 window.Script4 = function()
