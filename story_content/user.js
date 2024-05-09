@@ -53,7 +53,7 @@ player.SetVar("VariableName",Value)
 // player.SetVar("Fname",data);
 // }
 
-//window.Script1 = window.setUserName.postMessage('');
+window.Script1 = window.setUserName.postMessage('');
 
 // function(data)
 // {
