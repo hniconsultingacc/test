@@ -53,7 +53,8 @@ player.SetVar("VariableName",Value)
 // player.SetVar("Fname",data);
 // }
 
-window.Script1 = window.setUserName.postMessage('');
+//window.Script1 = window.setUserName.postMessage('');
+
 // function(data)
 // {
 //   // Function for onload
@@ -73,8 +74,9 @@ window.Script3 = function()
   // Function for Submit Button
   var player = GetPlayer();
   var score = player.GetVar('Score');
+  
   window.setScore.postMessage(score);
-  //window.setScore.postMessage(Score);
+ 
 //console.log(score);
 // setScore.postMessage(Score);
 }
