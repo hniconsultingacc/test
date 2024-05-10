@@ -53,8 +53,10 @@ player.SetVar("VariableName",Value)
 // player.SetVar("Fname",data);
 // }
 
-window.Script1 = window.setUserName.postMessage('');
-
+window.Script1  =function() {
+   window.setFname.postMessage('');
+   window.setLname.postMessage('');
+}
 // function(data)
 // {
 //   // Function for onload
@@ -74,9 +76,9 @@ window.Script3 = function()
   // Function for Submit Button
   var player = GetPlayer();
   var score = player.GetVar('Score');
-  
+  var groupScore = player.GetVar('GroupScore');
   window.setScore.postMessage(score);
- 
+  window.setGroupScore.postMessage(groupScore);
 //console.log(score);
 // setScore.postMessage(Score);
 }
