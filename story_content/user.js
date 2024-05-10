@@ -56,6 +56,7 @@ player.SetVar("VariableName",Value)
 window.Script1  =function() {
    window.setFname.postMessage('');
    window.setLname.postMessage('');
+   window.setCurrentScore.postMessage('');
 }
 // function(data)
 // {
